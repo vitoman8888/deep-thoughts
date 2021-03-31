@@ -24,6 +24,7 @@ type Thought {
     username: String
     thoughtText: String
     createdAt: String
+    reactionCount: Int
     reactions: [Reaction]
 }
 
